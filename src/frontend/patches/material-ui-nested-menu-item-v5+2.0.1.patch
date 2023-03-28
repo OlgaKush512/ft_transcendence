@@ -1,0 +1,18 @@
+diff --git a/node_modules/material-ui-nested-menu-item-v5/src/index.js b/node_modules/material-ui-nested-menu-item-v5/src/index.js
+index ba13c56..0b95038 100644
+--- a/node_modules/material-ui-nested-menu-item-v5/src/index.js
++++ b/node_modules/material-ui-nested-menu-item-v5/src/index.js
+@@ -1,3 +1,4 @@
++//@ts-nocheck
+ import React, { useState, useRef, useImperativeHandle } from 'react';
+ import Menu from '@mui/material/Menu';
+ import MenuItem from '@mui/material/MenuItem';
+diff --git a/node_modules/material-ui-nested-menu-item-v5/src/index.tsx b/node_modules/material-ui-nested-menu-item-v5/src/index.tsx
+index 9f22751..284bccd 100644
+--- a/node_modules/material-ui-nested-menu-item-v5/src/index.tsx
++++ b/node_modules/material-ui-nested-menu-item-v5/src/index.tsx
+@@ -1,3 +1,4 @@
++//@ts-nocheck
+ import React, {useState, useRef, useImperativeHandle} from 'react'
+ import Menu, {MenuProps} from '@mui/material/Menu'
+ import MenuItem, {MenuItemProps} from '@mui/material/MenuItem'

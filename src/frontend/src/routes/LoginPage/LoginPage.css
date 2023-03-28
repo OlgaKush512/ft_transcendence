@@ -1,0 +1,27 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 350px;
+  max-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-inline: 20px;
+}
+
+.link {
+  color: #8fb6b6;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: space-between;
+}

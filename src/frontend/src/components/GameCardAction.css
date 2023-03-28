@@ -1,0 +1,68 @@
+.shadow {
+  background-size: cover;
+  position: relative;
+}
+
+.shadow:hover {
+  background-color: rgba(255, 0, 0, 0.9);
+}
+
+.light {
+  background-size: cover;
+  position: relative;
+}
+
+.light::before {
+  background: radial-gradient(#000000, #c09e92);
+  /* background: linear-gradient(to center, #000000, #c09e92); */
+
+  background-size: cover;
+  content: ' ';
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  will-change: transform;
+  z-index: 0;
+  /* opacity: 0.6; */
+}
+
+/* .light::before:hover {
+  background-color: rgba(255, 0, 0, 0.7);
+} */
+
+.dark {
+  background-size: cover;
+  position: relative;
+}
+
+.dark::before {
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background: radial-gradient(#03151b, #606566);
+  background-size: cover;
+  content: ' ';
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+  z-index: -1;
+  /* opacity: 0.3; */
+}
+/* 
+.dark:hover {
+  background-color: rgba(255, 0, 0, 0.7);
+} */
+
+.choosen {
+  background: (#ab0b0b);
+  background-size: cover;
+  content: ' ';
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  will-change: transform;
+  z-index: 0;
+}

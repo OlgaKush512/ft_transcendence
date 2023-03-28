@@ -1,0 +1,60 @@
+.notif-container {
+  display: flex;
+  flex-direction: column;
+  width: 40ch;
+  position: relative;
+  padding: 10px 20px;
+}
+
+.notif-unread {
+  background-color: white;
+}
+
+.notif-unread::after {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #8fb6b6;
+  top: 5px;
+  right: 5px;
+}
+
+.notif-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.notif-title {
+  flex: 1;
+  font-weight: 500;
+  text-align: left;
+}
+
+.notif-date {
+  font-size: small;
+}
+
+.notif-username {
+  font-weight: 500;
+}
+
+.notif-body {
+}
+
+.notif-buttons-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+/* :root { 
+  --toastify-color-progress-light: #ff0000;
+    --toastify-color-progress-info:  #ff0000;
+  } */
+
+  .Toastify__progress-bar-theme--light{
+    background: #8fb6b6 !important;
+  }
